@@ -4,13 +4,12 @@ pubDate: "2024-12-15"
 featured: true
 description: 'my writeup collections'
 ---
+[![GitHub Repo Widget](https://github-readme-stats.vercel.app/api/pin/?username=jonscafe&repo=ctfs-write-ups)](https://github.com/jonscafe/ctfs-write-ups)
 
 ## ctfs-write-ups
 - This repo contains my journey on Capture the Flag. All write-up on this repo is created by me or my team when competing in national/international CTF events. Some of the write-up/PoC on this repo is my challenges that i created for CTF events.
 - MyCTFNotes: contains cheat sheets/notes from websites
 - I hope this repo will help you to study about CTF especially in the field of Digital Forensics (which im into it)
-
-::github{repo="jonscafe/ctfs-write-ups"}
 
 ## about-me
 - Student at NCCP, XX Batch, Takin Cryptographical Software Engineering field of interest on Cryptography Engineering Major
