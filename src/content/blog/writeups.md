@@ -2,6 +2,7 @@
 title: "My CTF Writeups"
 pubDate: "2024-12-15"
 featured: true
+description: 'my writeup collections'
 ---
 
 ## ctfs-write-ups
