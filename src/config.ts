@@ -2,7 +2,7 @@ import type { Socials } from "./types";
 
 export const SITE_URL = "https://1keii.vercel.app"; // Replace with your site url
 export const SITE_TITLE = "k.eii";
-export const SITE_DESCRIPTION = "Cybersecurity Enthusiast";
+export const SITE_DESCRIPTION = "Forensic research for fun";
 export const SITE_LOGO = "/logo.svg";
 
 export const SOCIALS: Socials = [
