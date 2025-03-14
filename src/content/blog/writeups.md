@@ -51,6 +51,6 @@ description: 'my writeup collections'
 | **[HackTheBox University CTF 2024](https://github.com/jonscafe/ctfs-write-ups/ctfs-write-ups/hackthebox-uni-2024)** | Participant | PoltekSSN | 3/4 Forensic |
 | **[Wargames MY 2024](https://github.com/jonscafe/ctfs-write-ups/wargames-my-2024)** | Rank 25 | SNI | Solved All Forensics |
 | **[NETCOMP 3.0 X11 Protocol - 2025](https://github.com/jonscafe/ctfs-write-ups/blob/main/netcomp-3.0-2024)** | - | UPSOLVE | X11 Protocol |
-| **[Cyber Jawara Nasional 2024, Qualification](https://github.com/jonscafe/ctfs-write-ups/blob/main/cj-nasional-2024)** | Rank 15 | SNI (FLAKEITO) | Solved All Forensics |
+| **[Cyber Jawara Nasional 2024, Qualification](https://github.com/jonscafe/ctfs-write-ups/blob/main/cj-nasional-2024)** | - | SNI (FLAKEITO) | Solved All Forensics |
 | **Cyber Jawara Nasional 2024, Final** | - | Challenge Author | Sandboxed Debugging |
 | **[ARA 6.0 2025 - Qualification](https://github.com/jonscafe/ctfs-write-ups/tree/main/ara-2025-quals)** | Rank 6 | Tempe Bacem | Solved All Forensics |
