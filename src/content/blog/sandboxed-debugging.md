@@ -3,7 +3,7 @@ title: "Windows Sandbox Memory Dump Analysis - Cyber Jawara National 2024 Final 
 pubDate: "2025-05-04"
 description: 'Proof-of-Concept of a challenge I crafted for the Cyber Jawara National 2024 Final Round'
 ---
-This is a walkthrough of a memory forensics challenge called "sandboxed debugging," designed for the Cyber Jawara National 2024 Final Round. The goal is to analyze a memory dump from a Windows Sandbox, identify a malicious process, uncover its encryption method, and decrypt its network traffic to retrieve a flag. Let’s dive into the solution!
+This is a walkthrough of a memory forensics challenge called "sandboxed debugging," that i designed for the Cyber Jawara National 2024 Final Round. The goal is to analyze a memory dump from a Windows Sandbox, identify a malicious process, uncover its encryption method, and decrypt its network traffic to retrieve a flag. Let’s dive into the solution!
 
 ### Scenario
 Prof. Darmodar and his student Jono were researching on a Windows instance when Prof. Darmodar’s wife, Chizuru, spilled coffee on the PC, frying it. Fortunately, a memory dump was captured before the crash. Your task is to analyze this dump and extract critical information.
@@ -16,7 +16,7 @@ Prof. Darmodar and his student Jono were researching on a Windows instance when 
 `Note: Traditional tools like Volatility won’t work due to symbol mismatches, so we’ll rely on MemprocFS, a hex editor, and WinDbg.`
 
 #### Tools Required
-- MemprocFS: Mounts the memory dump as a file system for analysis.
+- MemProcFS: Mounts the memory dump as a file system for analysis. (https://github.com/ufrisk/MemProcFS)
 - Hex Editor: Allows manual inspection of raw memory data.
 - WinDbg: Analyzes minidumps extracted from the memory.
 Basic knowledge of memory forensics and Windows internals is also helpful.
