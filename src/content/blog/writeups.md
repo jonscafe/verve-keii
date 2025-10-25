@@ -12,7 +12,8 @@ description: 'my writeup collections'
 - I hope this repo will help you to study about CTF especially in the field of Digital Forensics (which im into it)
 
 ## about-me
-- Student at NCCP, XX Batch, Takin Cryptographical Software Engineering field of interest on Cryptography Engineering Major
+- Graduated from National Cyber and Crypto Polytechnic, XX Batch Cryptographical Software Engineering field of interest on Cryptography Engineering Major.
+- Currently serving the country at the National Cyber and Crypto Agency.
 - Usually playing with [SNI Cybersecurity Team](https://serikatnewbie.me) or with my friend [itoid](https://github.com/lightningitoid) as KEITO team
 - Mainly playing on Forensics, so you will find more write-ups on Forensic related topics
 - Also sometimes tryin to solve Rev/Web 
