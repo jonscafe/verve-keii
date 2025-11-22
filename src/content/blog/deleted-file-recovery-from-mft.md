@@ -119,4 +119,44 @@ import gzip
 
 HEADER = b"Data is Encrypted."
 KEY_LEN = 32
-IV = b"
+IV = b"[Null byte]" * 16
+
+def decrypt_file(path):
+    with open(path, "rb") as f:
+        data = f.read()
+
+    key = data[-KEY_LEN:]
+    ciphertext = data[len(HEADER):-KEY_LEN]
+
+    cipher = AES.new(key, AES.MODE_CBC, IV)
+    decrypted = unpad(cipher.decrypt(ciphertext), AES.block_size)
+
+    xored = bytes(b ^ 127 for b in decrypted)
+
+    original = gzip.decompress(b"" + xored)
+
+    with open(path + ".decrypted", "wb") as o:
+        o.write(original)
+
+    print("Recovered:", path + ".decrypted")
+```
+
+Running it successfully recovered the original document and the challenge flag.
+
+---
+
+## 6. Key Takeaways
+
+### ✔ Deleted does **not** mean destroyed  
+Resident file content often survives deletion intact.
+
+### ✔ NTFS resident attributes are extremely recoverable  
+Small malicious artifacts, logs, and metadata often remain inside $MFT.
+
+### ✔ $MFT is essential in forensic workflows  
+Even if an attacker wipes files, NTFS structures may silently preserve them.
+
+### ✔ Resident data can store entire encrypted payloads  
+As seen in this challenge, the `.icc` file’s ciphertext and encryption key were *all preserved* inside the MFT entry.
+
+---
